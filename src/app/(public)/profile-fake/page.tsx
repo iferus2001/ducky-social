@@ -1,3 +1,9 @@
-export default function ExplorePage() {
-  return <h1>Explore</h1>;
+import type { Metadata } from "next";
+import { ProfileFake } from "./ProfileFake";
+export const metadata: Metadata = {
+  title: "ProfileFake",
+};
+
+export default function ProfileFakePage() {
+  return <ProfileFake />;
 }
