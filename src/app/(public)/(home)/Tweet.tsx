@@ -10,7 +10,7 @@ export function Tweet({ tweet }: Props) {
     <div className="border border-white/10 rounded-xl p-4 bg-black text-white shadow-md">
       <div className="flex items-center gap-3 mb-2">
         <Image
-          src="/duck-profile.svg"
+          src="/duck-profile.png"
           alt="Profile Logo"
           width={32}
           height={32}

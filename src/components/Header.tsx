@@ -6,7 +6,7 @@ export function Header() {
     <header className="border-b border-white/10 px-6 py-4 flex items-center justify-between bg-black">
       <Link href="/" className="flex items-center gap-3">
         <Image
-          src="/duck-logo.svg"
+          src="/duck-logo.png"
           alt="Ducky logo"
           width={40}
           height={40}
